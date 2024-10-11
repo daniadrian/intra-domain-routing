@@ -13,12 +13,8 @@ This repository contains a Python script (`ospf-lab.py`) that simulates an OSPF 
 To run the OSPF lab simulation:
 
 ```bash
-sudo python3 ospf-lab.py [options]
+sudo python3 ospf-lab.py
 ```
-
-Options:
-- `-g` or `--generateConfig`: Generate router configuration files (overwrites existing files)
-- `-v` or `--verbose`: Print detailed logs during network creation and stop
 
 ## Topology
 
