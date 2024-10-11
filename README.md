@@ -82,3 +82,31 @@ You can modify the `OSPFLab` class in the script to adjust the network topology,
 ## Note
 
 This lab is designed for educational purposes and may need additional configuration for production use. Ensure you have the necessary permissions and understanding of OSPF before deploying in a live environment.
+
+## ADDITIONAL CONFIGURATION !
+```bash
+sudo nano /etc/sysctl.conf
+net.ipv4.ip_forward=1
+net.ipv6.conf.all.forwarding=1
+```
+
+example results when running the ospf-lab.py :
+```bash
+========================================
+Warning: Linux bridge may not work with net.bridge.bridge-nf-call-arptables = 1
+Warning: Linux bridge may not work with net.bridge.bridge-nf-call-iptables = 1
+Warning: Linux bridge may not work with net.bridge.bridge-nf-call-ip6tables = 1
+Finished initializing network in: 1.1319239139556885 seconds
+```
+And, config this too :
+```bash
+ospf-lab$ sudo modprobe bridge
+sudo modprobe br_netfilter
+```
+
+The results will be like this :
+```bash
+bridge                335872  1 br_netfilter
+stp                    12288  1 bridge
+llc                    16384  2 bridge,stp
+```
