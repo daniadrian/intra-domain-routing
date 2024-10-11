@@ -100,7 +100,7 @@ Finished initializing network in: 1.1319239139556885 seconds
 ```
 And, config this too :
 ```bash
-ospf-lab$ sudo modprobe bridge
+sudo modprobe bridge
 sudo modprobe br_netfilter
 ```
 
