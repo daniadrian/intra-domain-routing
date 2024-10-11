@@ -105,6 +105,11 @@ sudo modprobe br_netfilter
 ```
 
 The results will be like this :
+The command :
+```bash
+lsmod | grep bridge
+```
+
 ```bash
 bridge                335872  1 br_netfilter
 stp                    12288  1 bridge
