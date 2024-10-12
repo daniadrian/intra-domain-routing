@@ -82,6 +82,9 @@ This lab is designed for educational purposes and may need additional configurat
 ## ADDITIONAL CONFIGURATION !
 ```bash
 sudo nano /etc/sysctl.conf
+```
+Uncomment this section :
+```bash
 net.ipv4.ip_forward=1
 net.ipv6.conf.all.forwarding=1
 ```
