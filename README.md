@@ -1,4 +1,4 @@
-# Intra Domain Routing 
+# Intra Domain Routing OSPF Single Area and Multi Area
 
 This repository contains a Python script (`ospf-lab.py`) that simulates an OSPF (Open Shortest Path First) network using Mininet. The script creates a topology with multiple routers and hosts, demonstrating both single-area and multi-area OSPF configurations.
 
@@ -18,7 +18,7 @@ sudo python3 ospf-lab.py
 
 ## Topology
 
-The script creates a network topology with three subnets, each containing a main router, two sub-routers, and two client hosts. The main routers are interconnected to form the backbone of the network.
+The script creates a network topology with three subnets, each containing a main router, a switch between the main router and two sub-routers, and two client hosts. The main routers are interconnected to form the backbone of the network.
 
 ### Multi-Area OSPF
 
