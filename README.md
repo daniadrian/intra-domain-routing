@@ -367,6 +367,8 @@ line vty
 ```
 
 # LAPORAN 
-[Tugas Intra-domain Routing_225150201111009_DANI ADRIAN.pdf](https://github.com/user-attachments/files/17355866/Tugas.Intra-domain.Routing_225150201111009_DANI.ADRIAN.pdf)
+
+[Tugas Intra-domain Routing_225150201111009_DANI ADRIAN.pdf](https://github.com/user-attachments/files/17355927/Tugas.Intra-domain.Routing_225150201111009_DANI.ADRIAN.pdf)
+
 
 
