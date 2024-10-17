@@ -369,7 +369,7 @@ line vty
 # Project Report (in Indonesian)
 For more detailed information on the project setup, configuration, and results, refer to the full report:
 
-[Tugas Intra-domain Routing_225150201111009_DANI ADRIAN.pdf](https://github.com/user-attachments/files/17355927/Tugas.Intra-domain.Routing_225150201111009_DANI.ADRIAN.pdf)
+[Intra-domain Routing.pdf](https://github.com/user-attachments/files/17355927/Tugas.Intra-domain.Routing_225150201111009_DANI.ADRIAN.pdf)
 
 
 
