@@ -114,17 +114,17 @@ Warning: Linux bridge may not work with net.bridge.bridge-nf-call-ip6tables = 1
 Finished initializing network in: 1.1319239139556885 seconds
 ```
 
-## Tugas Intra-domain Routing dengan OSPF Single Area dan Multi Area - Mininet
+# Intra-domain Routing Task with OSPF Single Area and Multi-Area - Mininet
 
-Skenario percobaan 1: keseluruhan router menjalankan OSPF single-area
+Experiment Scenario 1: All routers run OSPF in a single area.
 
-Skenario percobaan 2: menjalankan OSPF multi-area
+Experiment Scenario 2: Run OSPF in a multi-area configuration.
 
-*PENTING UNTUK DIBACA BAGIAN INI !*
+***IMPORTANT, READ THIS SECTION!***
 
-**Untuk Skenario 2, jalankan saja langsung repository ini tanpa mengubah apapun**
+**For Scenario 2, simply run this repository without making any changes.**
 
-**Untuk Skenario 1, lakukan perubahan pada masing masing frr-config pada Router, perubahan yang dilakukan adalah mengubah seluruh area menjadi area 0 (Single Area), lakukan perubahan melalui VS Code** :
+**For Scenario 1, make changes to each router's frr-config. The change required is to set all areas to area 0 (Single Area). Make the changes using VS Code.**
 
 ### frr.conf R1
 ```bash
@@ -366,7 +366,8 @@ line vty
 
 ```
 
-# LAPORAN 
+# Project Report (in Indonesian)
+For more detailed information on the project setup, configuration, and results, refer to the full report:
 
 [Tugas Intra-domain Routing_225150201111009_DANI ADRIAN.pdf](https://github.com/user-attachments/files/17355927/Tugas.Intra-domain.Routing_225150201111009_DANI.ADRIAN.pdf)
 
